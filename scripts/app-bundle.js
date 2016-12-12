@@ -58,6 +58,13 @@ define('web-api',["require", "exports"], function (require, exports) {
             lastName: 'Green',
             email: 'green@inklings.com',
             phoneNumber: '867-5309'
+        },
+        {
+            id: getId(),
+            firstName: 'Denis',
+            lastName: 'Zadniprovskiy',
+            email: 'dzadnip@gmail.com',
+            phoneNumber: '678-6149'
         }
     ];
     var WebAPI = (function () {
